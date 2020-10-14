@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dota-drafter/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/dota-drafter/static/js/main.74111025.chunk.js",
+    "main.js.map": "/dota-drafter/static/js/main.74111025.chunk.js.map",
+    "runtime-main.js": "/dota-drafter/static/js/runtime-main.e3ff7079.js",
+    "runtime-main.js.map": "/dota-drafter/static/js/runtime-main.e3ff7079.js.map",
+    "static/css/2.25c43c50.chunk.css": "/dota-drafter/static/css/2.25c43c50.chunk.css",
+    "static/js/2.8be678e0.chunk.js": "/dota-drafter/static/js/2.8be678e0.chunk.js",
+    "static/js/2.8be678e0.chunk.js.map": "/dota-drafter/static/js/2.8be678e0.chunk.js.map",
+    "index.html": "/dota-drafter/index.html",
+    "precache-manifest.5caadcbb565e0f4eeb3a711d9039ac23.js": "/dota-drafter/precache-manifest.5caadcbb565e0f4eeb3a711d9039ac23.js",
+    "service-worker.js": "/dota-drafter/service-worker.js",
+    "static/css/2.25c43c50.chunk.css.map": "/dota-drafter/static/css/2.25c43c50.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/dota-drafter/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8be678e0.chunk.js.LICENSE.txt": "/dota-drafter/static/js/2.8be678e0.chunk.js.LICENSE.txt",
+    "static/media/kor-styles.css": "/dota-drafter/static/media/open-sans-semibold.97593b89.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3ff7079.js",
+    "static/css/2.25c43c50.chunk.css",
+    "static/js/2.8be678e0.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.74111025.chunk.js"
+  ]
+}
