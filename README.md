@@ -1,2 +1,2 @@
-# dota-drafter
+# Dota Drafter
  
