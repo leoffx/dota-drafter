@@ -1,0 +1,12 @@
+{
+  "team.showWelcomeMessage": false,
+  "editor.formatOnSave": true,
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.pylintPath": "c:\\users\\user\\anaconda3\\lib\\site-packages",
+  "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "C:\\Users\\user\\Anaconda3\\python.exe",
+  "python.linting.enabled": true,
+  "python.linting.banditEnabled": false,
+  "python.linting.mypyEnabled": false
+}
