@@ -3,7 +3,7 @@ import React from "react";
 import ImageMapper from "react-image-mapper";
 
 function getImageLink(hero_name) {
-  return `http://cdn.dota2.com/apps/dota2/images/heroes/${hero_name}_lg.png`;
+  return `https://cdn.dota2.com/apps/dota2/images/heroes/${hero_name}_lg.png`;
 }
 
 function returnMap(hero, i) {

@@ -1,7 +1,7 @@
 import React from "react";
 
 function getImageLink(hero_name) {
-  return `http://cdn.dota2.com/apps/dota2/images/heroes/${hero_name}_lg.png`;
+  return `https://cdn.dota2.com/apps/dota2/images/heroes/${hero_name}_lg.png`;
 }
 
 class TeamComposition extends React.Component {
