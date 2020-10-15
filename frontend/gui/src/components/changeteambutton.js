@@ -9,7 +9,7 @@ class ChangeTeamButton extends React.Component {
       return (
         <kor-button
           label={this.props.buttonLabel}
-          style={{ margin: "5px", position: "relative", left: "400px" }}
+          style={{ margin: "5px", position: "relative", left: "30%" }}
           disabled
         />
       );
@@ -25,7 +25,7 @@ class ChangeTeamButton extends React.Component {
         <kor-button
           onClick={this.props.teamButtonOnPress}
           label={this.props.buttonLabel}
-          style={{ margin: "5px", position: "relative", left: "400px" }}
+          style={{ margin: "5px", position: "relative", left: "30%" }}
         />
       );
     }
