@@ -1,14 +1,18 @@
-import React from "react";
+import React from 'react';
 
 class SearchBar extends React.Component {
   render() {
-    return (
-      <input
-        onChange={this.props.onChange}
-        value={this.props.input}
-        style={{ width: "100%" }}
-      />
-    );
+    if (this.props.screenSize === 's') {
+      return null;
+    } else {
+      return (
+        <input
+          onChange={this.props.onChange}
+          value={this.props.input}
+          style={{ width: '100%' }}
+        />
+      );
+    }
   }
 }
 
