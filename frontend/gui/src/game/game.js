@@ -1,7 +1,7 @@
 const tf = require('@tensorflow/tfjs');
 
 async function loadModels() {
-  const MODEL_URL = '.model/model.json';
+  const MODEL_URL = './model/model.json';
   model = await tf.loadGraphModel(MODEL_URL);
   console.log('Loaded!');
 }

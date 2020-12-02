@@ -11,7 +11,11 @@ export default class Mctslogic extends Component {
     return null;
   }
 
-  async loadModels() {
+  componentDidMount() {
+    //this.loadModel();
+  }
+
+  async loadModel() {
     const MODEL_URL = './model/model.json';
     this.state.model = await tf.loadGraphModel(MODEL_URL);
     console.log('Loaded!');

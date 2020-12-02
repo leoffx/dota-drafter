@@ -3,7 +3,7 @@ import React from 'react';
 class CustomLayout extends React.Component {
   render() {
     return (
-      <kor-page theme='dark' flex-direction='column'>
+      <kor-page flex-direction='column'>
         <kor-app-bar slot='top'></kor-app-bar>
         <kor-nav-bar flex-direction='column' slot='top'>
           {this.props.children[1]}
@@ -15,11 +15,11 @@ class CustomLayout extends React.Component {
             <kor-grid columns='9' rows='4'>
               {this.props.children.slice(3)}
               <kor-card label='Core' grid-cols='4' grid-rows='3'>
-                Core suggestions
+                MCTS not implemented yet
               </kor-card>
               <kor-card grid-cols='1' grid-rows='2' flat={true}></kor-card>
               <kor-card label='Support' grid-cols='4' grid-rows='3'>
-                Support suggestions
+                MCTS not implemented yet
               </kor-card>
             </kor-grid>
           </kor-card>

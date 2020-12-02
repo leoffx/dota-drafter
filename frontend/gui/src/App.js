@@ -28,6 +28,7 @@ class App extends React.Component {
           direHeroes={this.state.direHeroes}
           chooseHero={this.pickHero}
           heroesList={this.state.heroesList}
+          radiant={this.state.radiant}
         />
 
         <ChangeTeamButton

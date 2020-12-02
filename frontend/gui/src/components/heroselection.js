@@ -67,12 +67,13 @@ export default class HeroSelection extends React.Component {
       /*  check if your team is radiant or dire, and 
         if you want to add the hero to your team or 
         enemy team */
-      const heroSideRadiant = !(this.state.radiant ? !teamRadiant : teamRadiant)
-        ? true
-        : false;
-      heroSideRadiant
-        ? this.props.chooseHero(heroName, 'dire')
-        : this.props.chooseHero(heroName, 'radiant');
+      // XOR
+      if (this.props.radiant ? teamRadiant : !teamRadiant) {
+        console.log('radi');
+        this.props.chooseHero(heroName, 'radiant');
+      } else {
+        this.props.chooseHero(heroName, 'dire');
+      }
     }
   };
 
